@@ -1,0 +1,5 @@
+To create a directory named "my_first_directory" in the "/tmp/" directory 
+using a script in Linux, you can use the mkdir command
+Naviagate in tmp directory using cd tmp
+and then use the above command of "mkdir" to create new directory named
+"my_first_directory"
