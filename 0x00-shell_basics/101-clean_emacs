@@ -1,0 +1,9 @@
+Here's a possible implementation of the script in bash:
+
+#!/bin/bash
+
+# Delete all files in the current directory that end with ~
+for file in *~; do
+  rm "$file"
+  echo "Deleted $file"
+done
