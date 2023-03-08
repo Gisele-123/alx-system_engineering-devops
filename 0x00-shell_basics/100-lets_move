@@ -1,12 +1,5 @@
-Here's a possible implementation of the script in bash:
-
 #!/bin/bash
-
-# Create the /tmp/u directory if it doesn't exist
 mkdir -p /tmp/u
-
-# Move files beginning with an uppercase letter to /tmp/u
 for file in [A-Z]*; do
   mv "$file" /tmp/u/
   echo "Moved $file to /tmp/u/"
-done
