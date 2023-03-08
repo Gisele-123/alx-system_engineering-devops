@@ -1,0 +1,18 @@
+To create a magic file school.mgc that detects School data files, you can use 
+the following syntax:
+
+0	string	SCHOOL	School data file
+This syntax uses the string keyword to specify that the magic string SCHOOL is
+expected at offset 0 of the file. The School data file string is a description of 
+the file type that will be displayed by the file command.
+To create the school.mgc file, you can use a text editor to create a file with the 
+above syntax and then use the file command to test it. Here are the steps:
+
+1.Open a text editor and create a new file named school.mgc.
+2.Copy the syntax above and paste it into the file.
+3.Save and close the file.
+4.Test the magic file by running the following command:
+   file -m school.mgc <filename>
+Replace <filename> with the name of a School data file that you want to test. 
+The file command should display the message School data file to indicate that 
+the file type has been detected.
