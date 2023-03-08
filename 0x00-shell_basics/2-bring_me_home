@@ -1,15 +1,2 @@
-Without using any shell variable I can use a python script using 'os' module
-Pytho script is:
-import os
-home_dir = os.path.expanduser("~")
-os.chdir(home_dir)
-print(f"Changed working directory to: {home_dir}")
-
-The os.path.expanduser() function returns the user's home directory as an absolute path, 
-and the os.chdir() function changes the working directory to the specified path. The resulting 
-path is then printed using the print() function.
-
-When you run this script, it will change the working directory to the user's 
-home directory and print a message indicating that the directory has been 
-changed. Note that the behavior of os.path.expanduser() may differ depending 
-on the operating system, but it should work as expected on most Linux and Unix systems.
+ #!/bin/bash
+import os home_dir = os.path.expanduser("~") os.chdir(home_dir) print(f"Changed working directory to: {home_dir}")
