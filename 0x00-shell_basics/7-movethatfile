@@ -1,5 +1,2 @@
-To move the file "betty" from "/tmp/" to "/tmp/my_first_directory" using a 
-Linux command, you can use the mv command.
-cd /tmp/
-ls betty
-mv betty /tmp/my_first_directory/
+ #!/bin/bash
+tmp/mv betty /tmp/my_first_directory/
