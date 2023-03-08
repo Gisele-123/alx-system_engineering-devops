@@ -1,9 +1,2 @@
-To change the working directory to the previous one using a Linux command, 
-you can use the cd command with the - option. Here's how to do it:
-Open your terminal or command prompt.
-Navigate to a directory by running the cd command. 
-    cd /home/user/documents/
-Check the current directory by running the pwd command.
-    pwd
- Change the directory to the previous one by running the following command:
-    cd -
+#!/bin/bash
+cd -
