@@ -1,11 +1,2 @@
-To delete the directory "my_first_directory" from the "/tmp" directory using 
-a Linux command, you can use the rm command with the -r (recursive) option.
-Open your terminal or command prompt.
-Navigate to the parent directory of the "my_first_directory" directory by 
-running the following command:
-    cd /tmp
-Check if the directory "my_first_directory" exists in the "/tmp" directory by 
-running the following command:
-     ls my_first_directory
-Delete the directory "my_first_directory" by running the following command:
-     rm -r my_first_directory
+ #!/bin/bash
+/tmp/my_first_directory/rm -r my_first_directory
