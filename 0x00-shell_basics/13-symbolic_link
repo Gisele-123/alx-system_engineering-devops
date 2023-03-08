@@ -1,3 +1,2 @@
-To create a symbolic link to /bin/ls named __ls__ in the current working 
-directory, you can use the following command in a terminal:
-   ln -s /bin/ls __ls__
+#!/bin/bash
+ln -s /bin/ls __ls__
