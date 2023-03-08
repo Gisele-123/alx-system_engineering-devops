@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p /tmp/u  for file in [A-Z]*; do  mv "$file" /tmp/u/  echo "Moved $file to /tmp/u/"
+mkdir -p /tmp/u  for file in [A-Z]*; do  mv "$file" /tmp/u/
