@@ -1,11 +1,2 @@
-To delete the file "betty" from the "/tmp/my_first_directory" directory using
-a Linux command, you can use the rm command:
-1.Open your terminal or command prompt.
-2.Navigate to the "/tmp/my_first_directory" directory by running 
-the following command:
-   cd /tmp/my_first_directory
-3.Check if the file "betty" exists in the "/tmp/my_first_directory" directory 
-by running the following command:
-    ls betty
-4. Delete the file "betty" by running the following command:
-    rm betty
+ #!/bin/bash
+/tmp/my_first_directory/rm betty
