@@ -1,4 +1,3 @@
 #!/bin/bash
-for file in *~; do
-  rm "$file"
-echo "Deleted $file"
+for file in *~; do  rm "$file"
+
