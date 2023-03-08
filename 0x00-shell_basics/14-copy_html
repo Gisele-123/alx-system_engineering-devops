@@ -1,14 +1,2 @@
-Here's a possible implementation of the script in bash:
 #!/bin/bash
-
-# Get the current working directory and its parent
-cwd=$(pwd)
-parent=$(dirname "$cwd")
-
-# Copy HTML files from the current working directory to the parent directory
-for file in *.html; do
-  if [ ! -e "$parent/$file" ] || [ "$cwd/$file" -nt "$parent/$file" ]; then
-    cp "$file" "$parent"
-    echo "Copied $file to $parent"
-  fi
-done
+cwd=$(pwd);parent=$(dirname "$cwd");for file in *.html;if [ ! -e "$parent/$file" ] || [ "$cwd/$file" -nt "$parent/$file" ]; then cp "$file" "$parent";echo "Copied $file to $parent"; fi
