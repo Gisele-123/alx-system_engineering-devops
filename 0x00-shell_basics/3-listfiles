@@ -1,0 +1,3 @@
+To display the contents of the current directory in a long format in Linux, 
+you can use the "ls" command with the "-l" option
+The command is "ls -l"
