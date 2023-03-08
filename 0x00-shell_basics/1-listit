@@ -1,1 +1,2 @@
-To display contents list of your current directory is by "ls" without quotation marks.
+#!/bin/bash
+ls
