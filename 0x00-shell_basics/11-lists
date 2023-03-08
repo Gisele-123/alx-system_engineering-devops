@@ -1,19 +1,4 @@
-Here's a script that will list all files (including hidden ones) in the current
-directory, the parent directory of the working directory, and the /boot 
-directory in long format:
-
 #!/bin/bash
-
-# list files in current directory in long format
-echo "Files in current directory:"
 ls -al
-
-# list files in parent directory of the working directory in long format
-echo ""
-echo "Files in parent directory:"
 ls -al ../
-
-# list files in /boot directory in long format
-echo ""
-echo "Files in /boot directory:"
 ls -al /boot
