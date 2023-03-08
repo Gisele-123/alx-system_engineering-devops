@@ -1,0 +1,4 @@
+To display the contents of the current directory, including hidden files, in
+a long format in Linux, you can use the ls command with the -a and -l 
+options.
+The command is : "ls-al" without quotations 
